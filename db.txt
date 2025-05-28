@@ -1,0 +1,54 @@
+class Author
+    image
+    first_name
+    last_name
+    bio
+    role
+
+
+class Blog(models.Model)
+    title
+    text
+    datetime 
+    image
+    category
+    status
+    like
+
+
+class Category
+    name
+
+
+class Subscribe
+    email
+
+
+class Partner
+    logo 
+
+
+class Tag
+    name
+
+
+class Contact
+    instagram
+    telegram
+    youtube
+    email
+
+
+class ContactUs
+    first_name
+    last_name
+    email
+    message
+
+
+class Comment
+    user
+    blog
+    text
+    time
+    reply
